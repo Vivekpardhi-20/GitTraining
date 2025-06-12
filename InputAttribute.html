@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Employee Registration Form</h2>
+    <form >
+        <input type="text" value = "Neosoft" readonly>
+        <input type="text" value = "Neosoft" disabled>
+        <input type="text" placeholder="Enter Username" title = "only alphabet allow" pattern="[A-Za-z]*" minlength="4" maxlength="12">
+        <label>Enter your age</label><input type = "number" min = "21" max = "40" title = "age between 21 to 40">
+
+        <input type="number" min="21"  max= "40" id="age">
+        <!---->
+          <input type="text" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required placeholder="Your password" title="Minimum eight characters, at least one letter, one number and one special character:"
+
+        <input type="text" placeholder="enter name" required>
+        <button type = "submit">SUBMIT</button>
+        <input type="submit" value="Register">
+
+        <div>
+            <input type="radio" id="radio1" value = "male" checked><label for="radio1">:MALE</label>
+            <input type="radio" id="radio2" value = 'Female'><label for="radio1">:FEMALE</label>
+        </div>
+
+        <button type="submit">Register</button>
+        <input type="image" height = "200" width = "50" src="https://www.google.com/imgres?q=submit%20button%20image&imgurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fsubmit-word-round-red-button-16243334.jpg&imgrefurl=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Fred-submit-button.html&docid=2KqWxTqqUoQnQM&tbnid=9I7DNTFXLecqCM&vet=12ahUKEwj6w7L8o7mNAxW8zjgGHdKUNGUQM3oECBwQAA..i&w=800&h=775&hcb=2&ved=2ahUKEwj6w7L8o7mNAxW8zjgGHdKUNGUQM3oECBwQAA">
+        <input type="color">
+    </form>
+
+</body>
+</html>
